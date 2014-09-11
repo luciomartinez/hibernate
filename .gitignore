@@ -1,0 +1,3 @@
+# El repositorio remoto NO debe tener las librerias 
+# estas son demasiado pesadas
+lib/
