@@ -15,9 +15,13 @@ Este artículo cubre el último método, para todo lo demás existe [DuckDuckGo]
  
 ##Requisitos
  
-- Netbeans > 8.0
-- Hibernate > 4
-- MySQL > 5.x
+- Netbeans >= 8.0
+- Hibernate >= 4.X
+- MySQL >= 5.x
+
+![no cumplo con los requisitos](http://i.imgur.com/FEiI5Nt.jpg)
+
+Si usas versiones anteriores lo mejor que puedo hacer por tí es ofrecerte el [link de descarga a la version más reciente de Netbeans](https://netbeans.org/downloads/index.html)
  
 NOTA: en este artículo he elegido MySQL pero se puede reemplazar por cualquier otro motor de base de datos que soporte Hibernate.
  
@@ -177,7 +181,7 @@ Para continuar se debe solucionar un error de compatibilidad del cual no conozco
  
 ##Festejar
  
-![champagne para lucio](http://betanews.com/wp-content/uploads/2013/05/champagne-541x600.jpg)
+![champagne para Lucio](http://upload.wikimedia.org/wikipedia/commons/f/ff/Champagne_tower.jpg)
  
 Corre, salta, grita, festeja, tienes un mapeo de Hibernate en tu proyecto!
  
@@ -188,6 +192,9 @@ Corre, salta, grita, festeja, tienes un mapeo de Hibernate en tu proyecto!
 Y sí, falta hacer que el mapeo sirva de algo, o sea CODIFICAR. En [el siguiente capítulo](https://github.com/lucio-martinez/registro/blob/master/HOW-TO-cap-2.md) explico cómo hacer que todo esto tenga sentido.
 
 [Leer el siguiente capítulo!](https://github.com/lucio-martinez/registro/blob/master/HOW-TO-cap-2.md)
+
 ---
  
 Bibliografía: https://netbeans.org/kb/docs/java/hibernate-java-se.html
+
+Champagne Tower: picture by [kenichi nobusue](https://www.flickr.com/photos/nobusue/), license [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)

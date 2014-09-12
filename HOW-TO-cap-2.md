@@ -7,6 +7,18 @@ Este artículo explicara cómo (HOW-TO) usar el ORM Hibernate en un proyecto de 
 Para esto, debes tener mapeadas las clases y su base de datos correspondiente. Sino lo hiciste previamente, mira el capítulo anterior.
  
 A continuación mostraré cómo crear un DAO y usarlo correctamente en las Controladoras y todo utilizando el ORM Hibernate. No es la única forma, pero es mi preferida.
+
+##Requisitos
+ 
+- Netbeans >= 8.0
+- Hibernate >= 4.X
+- MySQL >= 5.x
+
+![no cumplo con los requisitos](http://i.imgur.com/FEiI5Nt.jpg)
+
+Si usas versiones anteriores lo mejor que puedo hacer por tí es ofrecerte el [link de descarga a la version más reciente de Netbeans](https://netbeans.org/downloads/index.html)
+ 
+NOTA: en este artículo he elegido MySQL pero se puede reemplazar por cualquier otro motor de base de datos que soporte Hibernate.
  
 ##Por donde comienzo?
  
@@ -97,10 +109,14 @@ Ejecuta!
  
 ##Festejar
  
-![champagne para lucio](http://betanews.com/wp-content/uploads/2013/05/champagne-541x600.jpg)
+![champagne para lucio](http://upload.wikimedia.org/wikipedia/commons/f/ff/Champagne_tower.jpg)
  
 Corre, salta, grita, festeja, tienes un mapeo de Hibernate, un DAO funcional, una controladora ---pobre--- funcional y un *main* para seguir jugando!
  
 \o/
  
 Puedes acceder al repositorio completo (sí, con el código fuente incluido) [aquí](https://github.com/lucio-martinez/registro).
+
+---
+
+Champagne Tower: picture by [kenichi nobusue](https://www.flickr.com/photos/nobusue/), license [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
