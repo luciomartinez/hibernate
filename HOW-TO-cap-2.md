@@ -26,7 +26,7 @@ Abriendo el proyecto utilizado previamente llamado `registro` que ya tiene los a
  
 ##Codificar DAO
  
-Para todas las clases codificaremos el CRUD (Create Read Update Delete) que es el método de Agregar un objeto (guardarlo en la base de datos), Leerlo (traerlo de la base de datos), Actualizarlo y Eliminarlo, efectivamente, de la base de datos.
+Para todas las clases codificaremos el CRUD (Create Read Update Delete) que son los métodos para *agregar* un objeto (guardarlo en la base de datos), *leerlo* (traerlo de la base de datos), *actualizarlo* y *eliminarlo*, efectivamente, de la base de datos.
  
 Ya que el CRUD será implementado en *todas* las clases, generaremos un DAO genérico que realice estas cuatro operaciones. De esta forma no repetimos el *mismo código* para todas las clases.
  
