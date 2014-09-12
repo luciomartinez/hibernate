@@ -55,7 +55,12 @@ __La clase concreta__
  
 No voy a dar clases de programación, por lo que espero que el código hable por sí mismo.
  
-Puedes utilizar este DAO genérico para cualquier clase a la hora de realizar cualquiera de las cuatro operaciones básicas (CRUD).
+---Puedes utilizar este DAO genérico para cualquier clase a la hora de realizar cualquiera de las cuatro operaciones básicas (CRUD).--- (ya no porque es abstracta)  
+Para evitar pasar por parámetro el tipo de clase cada vez que se usa el DAO, se utiliza la siguiente línea larga.
+
+    (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0]
+
+Para saber cómo funciona, puedes leer [ésta explicación en Inglés](http://stackoverflow.com/a/11068057/1505348).
  
 ###Codificar DAO de una clase
  

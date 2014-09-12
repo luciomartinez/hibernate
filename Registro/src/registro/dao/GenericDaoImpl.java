@@ -25,7 +25,7 @@ import org.hibernate.Session;
  *
  * @author Lucio Martinez <luciomartinez at openmailbox dot org>
  */
-public class GenericDaoImpl <T, PK extends Serializable> implements GenericDao <T, PK> {
+public abstract class GenericDaoImpl <T, PK extends Serializable> implements GenericDao <T, PK> {
 
     private final Class<T> type;
     protected final Session session;
