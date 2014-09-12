@@ -4,7 +4,7 @@ HOW-TO Hibernate en Español!
 #Capítulo 2
  
 Este artículo explicara cómo (HOW-TO) usar el ORM Hibernate en un proyecto de Java.
-Para esto, debes tener mapeadas las clases y su base de datos correspondiente. Sino lo hiciste previamente, mira el capítulo anterior.
+Para esto, debes tener mapeadas las clases y su base de datos correspondiente. Si no lo hiciste previamente, mira el [capítulo previo](https://github.com/lucio-martinez/hibernate/blob/master/HOW-TO-cap-1.md).
  
 A continuación mostraré cómo crear un DAO y usarlo correctamente en las Controladoras y todo utilizando el ORM Hibernate. No es la única forma, pero es mi preferida.
 
@@ -20,7 +20,7 @@ Si usas versiones anteriores lo mejor que puedo hacer por tí es ofrecerte el [l
  
 NOTA: en este artículo he elegido MySQL pero se puede reemplazar por cualquier otro motor de base de datos que soporte Hibernate.
  
-##Por donde comienzo?
+##Por dónde comienzo?
  
 Abriendo el proyecto utilizado previamente llamado `registro` que ya tiene los archivos de configuración Hibernate, las clases y sus archivos de mapeos XML, y todo para que se pueda empezar a utilizar estas herramientas.
  

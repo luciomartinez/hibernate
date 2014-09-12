@@ -25,7 +25,7 @@ Si usas versiones anteriores lo mejor que puedo hacer por tí es ofrecerte el [l
  
 NOTA: en este artículo he elegido MySQL pero se puede reemplazar por cualquier otro motor de base de datos que soporte Hibernate.
  
-##Por donde comienzo?
+##Por dónde comienzo?
  
 Genera la base de datos en MySQL. Para este ejemplo he diseñado la base más simple posible, que es la siguiente.
  
@@ -33,7 +33,7 @@ Genera la base de datos en MySQL. Para este ejemplo he diseñado la base más si
  
 Corre el script como quieras para generar la base de datos `Registro` con la tabla `usuarios`. *Sólo asegúrate de utilizar exactamente los mismos nombres y prestar atención a la mayúsculas.*
  
-##Por donde continúo?
+##Por dónde continúo?
  
 Crea un nuevo Proyecto de "Aplicación Java", donde utilizaremos la línea de comando como interfaz gráfica. El nombre del proyecto será `Registro`, donde habrá un registro de *usuarios* con *nombre* y *apellido*, sín contraseña para hacer todo lo más simple posible.
  
@@ -58,7 +58,7 @@ Antes de agregarlo, búscalo en las "Bibliotecas" del proyecto. Por ejemplo, en 
  
 ![screenshoot de ayuda](https://netbeans.org/images_www/articles/80/java/hibernate-j2se/hib-libraries-config.png)
  
-Sino se encuentra actualmente en "Bibliotecas", añádelo siguiendo los pasos a continuación.
+Si no se encuentra actualmente en "Bibliotecas", añádelo siguiendo los pasos a continuación.
  
 1. En la ventana "Proyectos", click derecho sobre "Bibliotecas" y seleccionar "Agregar Biblioteca..."
 2. En la nueva ventana "Agregar Biblioteca", presiona en <kbd>Importar...</kbd>
