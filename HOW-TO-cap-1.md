@@ -29,7 +29,7 @@ NOTA: en este artículo he elegido MySQL pero se puede reemplazar por cualquier 
  
 Genera la base de datos en MySQL. Para este ejemplo he diseñado la base más simple posible, que es la siguiente.
  
-[`install.sql`](https://raw.githubusercontent.com/lucio-martinez/registro/master/Registro/install.sql)
+[`install.sql`](https://raw.githubusercontent.com/lucio-martinez/hibernate/master/Registro/install.sql)
  
 Corre el script como quieras para generar la base de datos `Registro` con la tabla `usuarios`. *Sólo asegúrate de utilizar exactamente los mismos nombres y prestar atención a la mayúsculas.*
  
@@ -189,9 +189,9 @@ Corre, salta, grita, festeja, tienes un mapeo de Hibernate en tu proyecto!
  
 ---
  
-Y sí, falta hacer que el mapeo sirva de algo, o sea CODIFICAR. En [el siguiente capítulo](https://github.com/lucio-martinez/registro/blob/master/HOW-TO-cap-2.md) explico cómo hacer que todo esto tenga sentido.
+Y sí, falta hacer que el mapeo sirva de algo, o sea CODIFICAR. En [el siguiente capítulo](https://github.com/lucio-martinez/hibernate/blob/master/HOW-TO-cap-2.md) explico cómo hacer que todo esto tenga sentido.
 
-[Leer el siguiente capítulo!](https://github.com/lucio-martinez/registro/blob/master/HOW-TO-cap-2.md)
+[Leer el siguiente capítulo!](https://github.com/lucio-martinez/hibernate/blob/master/HOW-TO-cap-2.md)
 
 ---
  

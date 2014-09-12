@@ -42,14 +42,14 @@ Todas las clases del DAO serán almacenadas en el paquete `registro.dao`. Asegú
  
 __La Interfaz__
  
-[`GenericDao`](https://raw.githubusercontent.com/lucio-martinez/registro/master/Registro/src/registro/dao/GenericDao.java)
+[`GenericDao`](https://raw.githubusercontent.com/lucio-martinez/hibernate/master/Registro/src/registro/dao/GenericDao.java)
  
 `T`: Tipo de dato a mapear, o sea la clase  
 `PK`: Tipo de dato de la clave primaria del objeto a mapear, lo más común es `int`
  
 __La clase concreta__
  
-[`GenericDaoImpl`](https://raw.githubusercontent.com/lucio-martinez/registro/master/Registro/src/registro/dao/GenericDaoImpl.java)
+[`GenericDaoImpl`](https://raw.githubusercontent.com/lucio-martinez/hibernate/master/Registro/src/registro/dao/GenericDaoImpl.java)
  
 `T` y `PK` siguen siendo lo mismo.
  
@@ -63,13 +63,13 @@ Muchas veces el CRUD es suficiente y se necesitan métodos más específicos, co
  
 __La Interfaz__
  
-[`UsuariosDao`](https://raw.githubusercontent.com/lucio-martinez/registro/master/Registro/src/registro/dao/UsuariosDao.java)
+[`UsuariosDao`](https://raw.githubusercontent.com/lucio-martinez/hibernate/master/Registro/src/registro/dao/UsuariosDao.java)
  
 Ahora los métodos de este DAO serán específicos para la clase `Usuarios`.
  
 __La clase concreta__
  
-[`UsuariosDaoImpl`](https://raw.githubusercontent.com/lucio-martinez/registro/master/Registro/src/registro/dao/UsuariosDaoImpl.java)
+[`UsuariosDaoImpl`](https://raw.githubusercontent.com/lucio-martinez/hibernate/master/Registro/src/registro/dao/UsuariosDaoImpl.java)
  
 Puedes observar que los queries no son MySQL sino HQL (Hibernate Query Language). Esto permite que podamos cambiar el motor de base de datos sin modificar el código fuente del DAO.
  
@@ -87,7 +87,7 @@ Todas las controladoras serán almacenadas en el paquete `registro.controller`. 
  
 __Ejemplo de Controladora__
  
-[`AdministrarUsuariosController`](https://raw.githubusercontent.com/lucio-martinez/registro/master/Registro/src/registro/controller/AdministrarUsuariosController.java)
+[`AdministrarUsuariosController`](https://raw.githubusercontent.com/lucio-martinez/hibernate/master/Registro/src/registro/controller/AdministrarUsuariosController.java)
  
 Se puede observar que la sesión es generada en el método de la controladora, se inicia la transacción y luego se la pasa por parámetro al DAO.
  
@@ -101,7 +101,7 @@ Para probar el proyecto necesitamos correr código, y para esto voy a utilizar e
  
 ###Super Main
  
-[`main`](https://github.com/lucio-martinez/registro/raw/master/Registro/src/registro/Registro.java)
+[`main`](https://github.com/lucio-martinez/hibernate/raw/master/Registro/src/registro/Registro.java)
  
 Ejecuta!
  
@@ -115,7 +115,7 @@ Corre, salta, grita, festeja, tienes un mapeo de Hibernate, un DAO funcional, un
  
 \o/
  
-Puedes acceder al repositorio completo (sí, con el código fuente incluido) [aquí](https://github.com/lucio-martinez/registro).
+Puedes acceder al repositorio completo (sí, con el código fuente incluido) [aquí](https://github.com/lucio-martinez/hibernate).
 
 ---
 
