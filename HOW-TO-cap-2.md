@@ -10,7 +10,7 @@ A continuación mostraré cómo crear un DAO y usarlo correctamente en las Contr
  
 ##Por donde comienzo?
  
-Abriendo el proyecto que ya tiene los archivos de configuración Hibernate, las clases y sus archivos de mapeos XML, y todo para que se pueda empezar a utilizar estas herramientas.
+Abriendo el proyecto utilizado previamente llamado `registro` que ya tiene los archivos de configuración Hibernate, las clases y sus archivos de mapeos XML, y todo para que se pueda empezar a utilizar estas herramientas.
  
 ##Codificar DAO
  
@@ -32,12 +32,12 @@ __La Interfaz__
  
 [`GenericDao`](https://raw.githubusercontent.com/lucio-martinez/registro/master/Registro/src/registro/dao/GenericDao.java)
  
-`T`: Tipo de dato a mapear, o sea la clase
+`T`: Tipo de dato a mapear, o sea la clase  
 `PK`: Tipo de dato de la clave primaria del objeto a mapear, lo más común es `int`
  
 __La clase concreta__
  
-[`GenericDao`](https://raw.githubusercontent.com/lucio-martinez/registro/master/Registro/src/registro/dao/GenericDaoImpl.java)
+[`GenericDaoImpl`](https://raw.githubusercontent.com/lucio-martinez/registro/master/Registro/src/registro/dao/GenericDaoImpl.java)
  
 `T` y `PK` siguen siendo lo mismo.
  
@@ -57,7 +57,7 @@ Ahora los métodos de este DAO serán específicos para la clase `Usuarios`.
  
 __La clase concreta__
  
-[`UsuariosDao`](https://raw.githubusercontent.com/lucio-martinez/registro/master/Registro/src/registro/dao/UsuariosDaoImpl.java)
+[`UsuariosDaoImpl`](https://raw.githubusercontent.com/lucio-martinez/registro/master/Registro/src/registro/dao/UsuariosDaoImpl.java)
  
 Puedes observar que los queries no son MySQL sino HQL (Hibernate Query Language). Esto permite que podamos cambiar el motor de base de datos sin modificar el código fuente del DAO.
  
@@ -103,4 +103,4 @@ Corre, salta, grita, festeja, tienes un mapeo de Hibernate, un DAO funcional, un
  
 \o/
  
-Puedes acceder al repositorio completo [aquí](https://github.com/lucio-martinez/registro).
+Puedes acceder al repositorio completo (sí, con el código fuente incluido) [aquí](https://github.com/lucio-martinez/registro).
