@@ -11,12 +11,12 @@ Lee el tutorial desde la [wiki!](https://github.com/lucio-martinez/hibernate/wik
 
 Para correr el programa, sigue los siguientes pasos
 
- 1. Ejecuta el archivo `./Region/install.sql` sobre MySQL
+ 1. Ejecuta el archivo `./Registro/install.sql` sobre MySQL
  2. Añade las dependencias al proyecto:
     1. Hibernate
     2. Persistence JPA 2.0
     3. MySQL driver
- 3. En el directorio `./Region/src/`, copia el archivo `hibernate.cfg.xml.template` y pegalo en la misma carpeta con el nombre `hibernate.cfg.xml`
+ 3. En el directorio `./Registro/src/`, copia el archivo `hibernate.cfg.xml.template` y pegalo en la misma carpeta con el nombre `hibernate.cfg.xml`
  4. Luego modifica el nuevo archivo `hibernate.cfg.xml` con tus datos
 
 ##Contribuciones
