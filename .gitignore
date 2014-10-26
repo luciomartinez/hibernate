@@ -1,3 +1,5 @@
-# El repositorio remoto NO debe tener las librerias 
-# estas son demasiado pesadas
+# El repositorio remoto NO debe incluir las librerias
 lib/
+
+# Resultados del proyecto compilado
+build/
