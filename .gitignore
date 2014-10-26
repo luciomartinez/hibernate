@@ -3,3 +3,6 @@ lib/
 
 # Resultados del proyecto compilado
 build/
+
+# Evitar subir contraseñas privadas
+hibernate.cfg.xml
