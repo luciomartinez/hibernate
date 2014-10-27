@@ -21,9 +21,11 @@ public class Registro {
     public static void main(String[] args) {
         String nombre = "Jose", apellido = "Ramos";
 
+        AdministrarUsuariosController usuariosCtrl = new AdministrarUsuariosController();
+
         /* Agregar el usuario */
         try {
-            Usuarios u = AdministrarUsuariosController.agregarUsuario(nombre, apellido);
+            Usuarios u = usuariosCtrl.agregarUsuario(nombre, apellido);
 
             System.out.println("Se agregó el usuario '" + u.getNombre() + "' exitosamente!");
 

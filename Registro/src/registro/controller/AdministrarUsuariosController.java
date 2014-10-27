@@ -29,24 +29,23 @@ import registro.util.HibernateUtil;
  */
 public class AdministrarUsuariosController {
 
-    public static Usuarios agregarUsuario(String nombre, String apellido) throws Exception {
+    Session session = HibernateUtil.getSessionFactory().openSession();
+
+    public Usuarios agregarUsuario(String nombre, String apellido) throws Exception {
         Usuarios u = new Usuarios(nombre, apellido);
 
-        Session session = HibernateUtil.getSessionFactory().openSession();
         try {
             session.beginTransaction();
 
             new UsuariosDaoImpl(session).add(u);
 
             session.getTransaction().commit();
-            session.close();
 
             return u;
 
         } catch(HibernateException e) {
             if (session != null) {
                 session.getTransaction().rollback();
-                session.close();
             }
 
             throw new Exception("Error interno al intentar guardar el usuario.");
